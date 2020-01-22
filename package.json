@@ -1,0 +1,38 @@
+{
+  "name": "is-wld",
+  "version": "1.0.0",
+  "description": "Identify World Files",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/mocha ./test/test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/is-wld.git"
+  },
+  "keywords": [
+    "wld",
+    "world-file",
+    "gfw",
+    "jgw",
+    "j2w",
+    "pgw",
+    "tfw",
+    "gis",
+    "imagery",
+    "satellite"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/is-wld/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/is-wld#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0"
+  }
+}
