@@ -2,7 +2,7 @@
 Identifies World Files (e.g., .gfw, .jgw, .j2w, .pgw, .tfw, and .wld)
 
 # usage
-# checking a file
+## checking contents of a file
 ```javascript
 const isWorldFile = require("is-wld");
 const { readFileSync } = require("fs");
@@ -12,7 +12,7 @@ const valid = isWorldFile(text);
 // true
 ```
 
-# checking a url
+## checking a url
 ```javascript
 const isWorldFile = require("is-wld");
 
